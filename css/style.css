@@ -37,7 +37,7 @@ a {
 /* ============ header part end ========== */
 
 #slider_part .carousel-control-prev {
-    left: -17px;
+    left: -22px;
 }
 
 #slider_part .carousel-item {
@@ -74,6 +74,17 @@ a {
 }
 
 /* ============ slider part end ========== */
+.watch_part {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.bag_part {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.shoes_part {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
 
 
 /* ============ header part end ========== */
