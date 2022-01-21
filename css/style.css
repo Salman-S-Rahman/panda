@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul,
@@ -34,8 +34,47 @@ a {
     font-size: 1.2rem;
 }
 
+/* ============ header part end ========== */
 
-/* ============ header part end ========== */
-/* ============ header part end ========== */
+#slider_part .carousel-control-prev {
+    left: -17px;
+}
+
+#slider_part .carousel-item {
+    background: #FEEAE9;
+}
+
+#slider_part .carousel-control-prev-icon {
+    background-color: rgba(255, 19, 110, 0.671);
+}
+
+#slider_part .carousel-control-next-icon {
+    background-color: rgba(255, 19, 110, 0.671);
+}
+
+.carousal_text h1 {
+    color: #1F1F1F;
+    font-size: 3.5rem;
+}
+
+.carousal_text h3 {
+    color: #FF136F;
+}
+
+.btn_bg {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+#slider_part .btn-primary:focus,
+.btn-primary.active {
+    color: #fff;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-color: rgba(255, 19, 110, 0.6);
+    box-shadow: 0 0 0 .25rem rgba(255, 19, 110, 0.6);
+}
+
+/* ============ slider part end ========== */
+
+
 /* ============ header part end ========== */
 /* ============ header part end ========== */
