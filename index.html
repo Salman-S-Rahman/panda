@@ -19,7 +19,7 @@
 <body>
 
     <header id="header_part">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,17 +37,15 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Product</a>
+                            <a class="nav-link" aria-current="page" href="#slider_part">About Us</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">About Us</a>
+                            <a class="nav-link" aria-current="page" href="#shoes_part">Product</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                            <a class="nav-link" aria-current="page" href="#contact_part">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -199,7 +197,7 @@
             </div>
         </section>
         <!-- ====== catagories part end ======== -->
-        <section id="bag_part" class="mt-5">
+        <section id="shoes_part" class="mt-5">
             <div class="container">
                 <div class="shoes_title">
                     <h2 class="fw-bold fs-2 mb-4">Shoes</h2>
@@ -316,11 +314,23 @@
 
             </div>
         </section>
+        <!-- ========== bag part end =========== -->
+        <section id="contact_part" class="mt-5 mb-3">
+            <div class="container">
+                <div class="contact_form p-5 rounded-2 text-center">
+                    <h3 class="text-dark fw-bold mb-3">LET'S STAY IN TOUCH</h3>
+                    <h6 class="mb-5">Get updates on sales specials and more</h6>
+                    <div class="input-group mb-3 mx-auto w-50">
+                        <input type="text" class="form-control py-3" placeholder="Enter Your Email"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn_bg text-white fw-bold" type="button" id="button-addon2">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- ========== contact part end =========== -->
 
-        <!-- ========== backpack part end =========== -->
-        <!-- ========== header part end =========== -->
-        <!-- ========== header part end =========== -->
     </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>
